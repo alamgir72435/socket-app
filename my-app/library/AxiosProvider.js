@@ -7,7 +7,7 @@ const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 const serverUrl = serverRuntimeConfig.uri;
 const publicUrl = publicRuntimeConfig.uri;
 
-const url = 'http://localhost:5000/app';
+const url = 'http://localhost:5000/socket';
 
 const devBaseUrl = url;
 // process.env.NODE_ENV === 'development'
